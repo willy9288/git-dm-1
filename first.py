@@ -1,4 +1,6 @@
 x = 10
 y = 20
-print("123")
-print(x + y)
+z = x + y
+
+# print("123")
+print(z)
