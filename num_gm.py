@@ -3,6 +3,7 @@ import random
 x = random.randint(1, 50)
 # print(x)
 
+
 for i in range(5):
 
     y = int(input("請猜一個數字:"))
@@ -16,5 +17,9 @@ for i in range(5):
             print("猜高一點!")
         else:
             print("猜低一點~~~")
+
 if x != y:
     print(f"答案為:{x}")
+
+else:
+    print(f"猜了:{i+1}次")
