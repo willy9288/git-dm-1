@@ -23,3 +23,6 @@ if x != y:
 
 else:
     print(f"猜了:{i+1}次")
+
+
+print()
